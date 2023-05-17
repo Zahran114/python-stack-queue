@@ -60,3 +60,5 @@ class BankSimulation:
 if __name__ == "__main__":
     sim = BankSimulation(num_customers=10, service_time_mean=5)
     sim.run_simulation()
+    
+print(f"Hello world")
